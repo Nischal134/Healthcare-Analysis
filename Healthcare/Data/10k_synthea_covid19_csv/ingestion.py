@@ -16,7 +16,7 @@ except Exception as e:
 # 3. If the connection works, let's load just PATIENTS as our test run
 try:
     print("Reading patients.csv...")
-    df_patients = pd.read_csv('/Users/nischal/Desktop/project/Personal Projects/Healthcare/Data/10k_synthea_covid19_csv/patients.csv', dtype=str)
+    df_patients = pd.read_csv('FILEPATH/patients.csv', dtype=str)
     
     # Sanitize column names (lowercase and underscores)
     df_patients.columns = [col.lower().strip().replace(' ', '_') for col in df_patients.columns]

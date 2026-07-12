@@ -7,9 +7,9 @@ engine = create_engine(db_uri)
 
 # 2. Expanded Target Dictionary (Adding Encounters and Procedures)
 files_to_load = {
-    'stg_patients': '/Users/nischal/Documents/GitHub/Healthcare Analysis/Healthcare/Data/10k_synthea_covid19_csv/patients.csv',
-    'stg_encounters': '/Users/nischal/Documents/GitHub/Healthcare Analysis/Healthcare/Data/10k_synthea_covid19_csv/encounters.csv',
-    'stg_procedures': '/Users/nischal/Documents/GitHub/Healthcare Analysis/Healthcare/Data/10k_synthea_covid19_csv/procedures.csv'
+    'stg_patients': 'FILEPATH/patients.csv',
+    'stg_encounters': 'FILEPATH/encounters.csv',
+    'stg_procedures': 'FILEPATH/procedures.csv'
 }
 
 print("Initiating batch staging ingestion...")
