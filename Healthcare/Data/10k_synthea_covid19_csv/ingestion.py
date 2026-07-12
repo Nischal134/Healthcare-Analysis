@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 # 1. Update the connection string with your actual local database password
-db_uri = "postgresql://postgres:postgresretro@localhost:5432/postgres"
+db_uri = "postgresql://postgres:passwordHere@localhost:5432/postgres"
 engine = create_engine(db_uri)
 
 # 2. Test the connection first before loading data

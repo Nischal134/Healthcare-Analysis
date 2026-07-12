@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # 1. Database Connection
-db_uri = "postgresql://postgres:postgresretro@localhost:5432/postgres"
+db_uri = "postgresql://postgres:PasswordHere@localhost:5432/postgres"
 engine = create_engine(db_uri)
 
 # 2. Expanded Target Dictionary (Adding Encounters and Procedures)
